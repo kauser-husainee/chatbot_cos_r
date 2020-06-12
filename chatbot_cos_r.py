@@ -13,7 +13,7 @@ import time
  
  
  
-########## PART 1 - DATA PREPROCESSING ##########
+########## DATA PREPROCESSING ##########
  
  
  
@@ -167,7 +167,7 @@ for length in range(1, 25 + 1):
  
  
  
-########## PART 2 - BUILDING THE SEQ2SEQ MODEL ##########
+########## BUILDING THE SEQ2SEQ MODEL ##########
  
  
  
@@ -297,7 +297,7 @@ def seq2seq_model(inputs, targets, keep_prob, batch_size, sequence_length, answe
  
  
  
-########## PART 3 - TRAINING THE SEQ2SEQ MODEL ##########
+########## TRAINING THE SEQ2SEQ MODEL ##########
  
  
  
@@ -435,7 +435,7 @@ print("Game Over")
  
  
  
-########## PART 4 - TESTING THE SEQ2SEQ MODEL ##########
+########## TESTING THE SEQ2SEQ MODEL ##########
  
  
  
