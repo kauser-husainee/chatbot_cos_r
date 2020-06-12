@@ -18,7 +18,7 @@ import data_utils_2
 
 
 
-########## PART 1 - DATA PREPROCESSING ##########
+########## DATA PREPROCESSING ##########
 
 
 
@@ -40,7 +40,7 @@ idx2w, w2idx, limit = data_utils_2.get_metadata()
 
 
 
-########## PART 2 - BUILDING THE SEQ2SEQ MODEL ##########
+########## BUILDING THE SEQ2SEQ MODEL ##########
 
 
 
@@ -55,14 +55,11 @@ model = seq2seq_wrapper.Seq2Seq(xseq_len = xseq_len,
 
 
 
-########## PART 3 - TRAINING THE SEQ2SEQ MODEL ##########
+########## TRAINING THE SEQ2SEQ MODEL ##########
 
+# Refer seq2seq_wrapper.py
 
-# See the Training in seq2seq_wrapper.py
-
-########## PART 4 - TESTING THE SEQ2SEQ MODEL ##########
-
-
+########## TESTING THE SEQ2SEQ MODEL ##########
 
 # Loading the weights and Running the session
 session = model.restore_last_session()
