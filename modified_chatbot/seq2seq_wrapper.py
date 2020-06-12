@@ -4,7 +4,7 @@
 @author: Kauser
 """
 
-########## PART 3 - TRAINING THE SEQ2SEQ MODEL ##########
+########## TRAINING THE SEQ2SEQ MODEL ##########
 
 
 
